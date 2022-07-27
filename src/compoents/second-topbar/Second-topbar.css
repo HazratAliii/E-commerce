@@ -1,0 +1,8 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.s-main {
+  background-color: black;
+  color: white;
+  padding: 7px;
+}

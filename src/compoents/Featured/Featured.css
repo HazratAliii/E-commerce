@@ -1,0 +1,43 @@
+.f-container {
+  display: flex;
+  min-height: 700px;
+  width: 80%;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.img-sec {
+  background-image: url("../../images/Hyaluret_Collage_Landscape_v2_1_copy_4_x800.progressive.webp");
+  background-repeat: no-repeat;
+  flex: 3;
+}
+
+.text-sec {
+  display: flex;
+}
+.txts > h1 {
+  font-size: 90px;
+}
+
+.txts {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.txts > p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.f-btn {
+  width: 70%;
+  align-items: center;
+  height: 70px;
+  background: #000;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

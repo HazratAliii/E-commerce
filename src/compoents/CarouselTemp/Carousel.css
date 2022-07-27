@@ -1,0 +1,16 @@
+.card-conts {
+  display: flex;
+  flex-direction: row;
+}
+.card-conts {
+  width: 300px;
+}
+.card-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .c-img {
+  height: 100px;
+  width: 200px;
+} */

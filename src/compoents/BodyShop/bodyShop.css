@@ -1,0 +1,30 @@
+.b-cont {
+  width: 100%;
+  height: 600px;
+  background-image: url("../../images/Lip_Hand_Body_2000x742_Desktop_Home_pg._Claribar_2000x.progressive.webp");
+  margin-top: 20px;
+  text-align: left;
+}
+.b-content {
+  position: absolute;
+  width: 40%;
+  margin-top: 150px;
+  margin-left: 25%;
+}
+.b-header {
+  font-weight: bold;
+  font-size: 100px;
+}
+.b-para {
+  font-size: 30px;
+}
+.shop-body-btn {
+  background: #000;
+  color: white;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10%;
+}
+.rand {
+  height: 800px;
+}

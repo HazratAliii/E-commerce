@@ -1,0 +1,17 @@
+.s-container {
+  display: flex;
+  width: 80%;
+  background: #fafafa;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.forAllDivs {
+  margin: 40px 40px;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
+}

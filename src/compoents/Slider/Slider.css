@@ -1,0 +1,15 @@
+.card-comp {
+  display: flex;
+  font-display: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.w-header {
+  margin-top: 20px;
+}
+.cards {
+  height: 300px;
+  width: 300px;
+  font-display: row;
+}
