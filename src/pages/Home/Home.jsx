@@ -8,6 +8,11 @@ import Whatsnew from '../../compoents/WhatsNew/Whatsnew'
 import BodyShop from "../../compoents/BodyShop/bodyShop";
 import About from "../../compoents/About/About";
 import Facetheory from "../../compoents/Facetheory/Facetheory";
+import Footer from "../../compoents/Footer/Footer";
+import ImgSec from "../../compoents/img-sec/ImgSec";
+import Follow from "../../compoents/Follow/Follow";
+import Community from "../../compoents/Community/Community";
+
 const Home = () => {
   return (
     <div>
@@ -21,6 +26,10 @@ const Home = () => {
       <BodyShop />
       <About />
       <Facetheory />
+      <ImgSec />
+      <Follow />
+      <Community />
+      <Footer />
     </div>
   );
 };

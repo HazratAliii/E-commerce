@@ -1,0 +1,43 @@
+.community-wrapper {
+  background: #f2f1f1;
+  height: 300px;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.community-header > h1 {
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.community-p > p {
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.community-sb {
+  width: 30%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.community-search {
+  width: 80%;
+  margin-right: 20px;
+  height: 100%;
+  margin-right: 0px;
+}
+
+.community-btn {
+  height: 100%;
+  width: 20%;
+  margin-left: 0;
+  outline: none;
+  border: 1px solid black;
+  font-weight: bold;
+}

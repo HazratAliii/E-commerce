@@ -2,7 +2,7 @@ import './Topbar.css';
 
 const Topbar = () => {
     return (
-        <div>
+        <div className='topbar-div'>
             <p className='topbar-p'>Better ingredients, affordably priced | over 70000 reviews</p>
         </div>
     );
