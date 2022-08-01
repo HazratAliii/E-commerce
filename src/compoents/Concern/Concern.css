@@ -6,18 +6,14 @@
   flex-direction: column; */
 }
 
-.btns {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
 .concern-btn {
-  padding: 20px 70px;
+  padding: 20px 80px;
   margin-top: 80px;
   background: white;
   font-weight: bolder;
 }
-.btns > div > button:hover {
+
+.concern-btn:hover {
   background: #000;
   color: white;
 }

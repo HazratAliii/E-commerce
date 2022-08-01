@@ -1,23 +1,43 @@
+import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Featured.css";
 
 const Featured = () => {
   return (
-    <div>
-      <div className="f-container">
-        <div className="img-sec"></div>
-        <div className="text-sec">
-          <div className="txts">
-            <h1>Introducing </h1> <br />
-            <h1>Hyaluret S13</h1> br
-            <p>Our new oil-free/hyaluronic acid</p> <br />
-            <p>serum</p>
-            <div className="btn">
-              <button className="f-btn">Shop New In</button>
-            </div>
-          </div>
+    <>
+    <div className="f-container">
+      <Row>
+        <div className="col-lg-8 col-md-12">
+          <Col>
+            {/* <h1>sldkfjsldkfj</h1>
+            <h1>sldkfjsldkfj</h1>
+            <h1>sldkfjsldkfj</h1>
+            <h1>sldkfjsldkfj</h1>
+            <h1>sldkfjsldkfj</h1>
+            <h1>sldkfjsldkfj</h1>
+            <h1>sldkfjsldkfj</h1> */}
+            <div className="img-sec"></div>
+          </Col>
         </div>
-      </div>
+        <div className="col-lg-4 col-md-12">
+          <Col>
+          <div style={{ width: "80%", height: "70%", margin: "0 auto", marginTop:"30%"}}>
+            <h1 style={{fontWeight: "bolder"}}>
+              The ultimate in hyaluronic acid
+            </h1>
+            <p>Hylafecta S14 is our new 2% triple molecule weight hyaluronic serum</p>
+            <Link to="/new">
+<button className="f-btn">Shop New In</button>
+
+            </Link>
+          </div>
+          </Col>
+        </div>
+        
+      </Row>
+
     </div>
+    </>
   );
 };
 

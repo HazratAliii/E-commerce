@@ -1,33 +1,62 @@
-import './Concern.css';
+import { Col, Row } from "react-bootstrap";
 
+import "./Concern.css";
 const Concern = () => {
-    return (
+  return (
+    <div>
+      <div className="c-container">
         <div>
-            <div className="c-container">
-                <div>
-                    <h1>Shop by concern</h1>
-                </div>
-                <div className="btns">
-                    <div className="btn-d1">
-                    <button className='concern-btn'>ANTI-AGEING</button> <br />
-                        <button className='concern-btn'>BLACKHEADS</button> <br /> 
-                    </div>
-                    <div className="btn-d2"> 
-                        <button className='concern-btn'>OIL CONTROL</button> <br />
-                        <button className='concern-btn'>PIGEMENTATION</button> <br />
-                    </div>
-                    <div className="btn-d3">
-                        <button className='concern-btn'>ANTI-REDNESS</button> <br />
-                        <button className='concern-btn'> UNEVEN TONE</button> <br />
-                    </div>
-                    <div className="btn-d4">
-                        <button className='concern-btn'>DEHYDRATION</button> <br />
-                        <button className='concern-btn'>DULLNESS</button> <br />
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-}
+          <h1>Shop by concern</h1>
+        </div> 
+        <Row>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">ANTI-AGING</button>
+            </Col>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">BLACKHEADS</button>
+            </Col>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">OILCONTROL</button>
+            </Col>
+
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">DULLNESS</button>
+            </Col>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">PIGMENTATION</button>
+            </Col>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">DEHYDRATION</button>
+            </Col>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">ANTI REDNESS</button>
+            </Col>
+
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Col>
+              <button className="concern-btn">UNEVEN TONE</button>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </div>
+  );
+};
 
 export default Concern;

@@ -1,11 +1,12 @@
 import "./About.css";
-import logo1 from '../../images/about.logo.webp'
-import logo2 from '../../images/aboutlogo2.webp'
-import logo3 from '../../images/aboutlogo3.webp'
+import logo1 from "../../images/about.logo.webp";
+import logo2 from "../../images/aboutlogo2.webp";
+import logo3 from "../../images/aboutlogo3.webp";
+import { Col, Row } from "react-bootstrap";
 function About() {
   return (
     <>
-      <div className="a-main">
+      {/* <div className="a-main">
         <div className="first common-div">
           <div className="a-first-logo about-logo"><h1>logo</h1></div>
           <div className="a-header-1">
@@ -45,7 +46,69 @@ function About() {
             </p>{" "}
           </div>
         </div>
+      </div> */}
+      <Row>
+      <div className="col-lg-4 col-md-12">
+        <Col>
+          <div className="second common-div col-md-12"> 
+            <div className="a-second-logo about-logo">
+              <h1>logo</h1>
+            </div>
+            <div className="a-header-1">
+              <h1>Over 70,000 reviews</h1>
+            </div>
+            <div className="a-context-1">
+              <p>
+                We've got over 70,000 real customer reviews so you can buy with
+                total confidence.
+              </p>
+            </div>
+          </div>
+        </Col>
+
       </div>
+      <div className="col-lg-4 col-md-12">
+        <Col>
+          <div className="second common-div col-md-12"> 
+            <div className="a-second-logo about-logo">
+              <h1>logo</h1>
+            </div>
+            <div className="a-header-1">
+              <h1>Over 70,000 reviews</h1>
+            </div>
+            <div className="a-context-1">
+              <p>
+                We've got over 70,000 real customer reviews so you can buy with
+                total confidence.
+              </p>
+            </div>
+          </div>
+        </Col>
+
+      </div>
+      <div className="col-lg-4 col-md-12">
+
+        <Col>
+          <div className="third common-div col-md-12">
+            <div className="a-third-logo about-logo">
+              <h1>logo</h1>
+            </div>
+            <div className="a-header-1">
+              {" "}
+              <h1>Tried and true</h1>{" "}
+            </div>
+            <div className="a-context-1">
+              {" "}
+              <p>
+                We're so confident in our products that if you don't get better
+                skin we'll give you your money back. You get 364 days to try
+                them out.
+              </p>{" "}
+            </div>
+          </div>
+        </Col>
+      </div>
+      </Row>
     </>
   );
 }
