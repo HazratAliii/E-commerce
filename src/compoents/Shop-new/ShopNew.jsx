@@ -2,6 +2,7 @@ import { Row, Col, Badge } from "react-bootstrap";
 import "./ShopNew.css";
 import s1 from "../../images/s1.webp";
 import s2 from "../../images/s2.webp";
+import { Link } from "react-router-dom";
 const ShopNew = () => {
   return (
     <>
@@ -14,7 +15,50 @@ const ShopNew = () => {
         style={{ display: "flex", flexDirection: "row" }}
       >
         <Row>
-          <div w-100px-md style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <Link to="/productdetails">
+            <div
+              w-100px-md
+              style={{ justifyContent: "left" }}
+              className="col-lg-3 col-md-6 col-sm-12"
+            >
+              <Col>
+                <img src={s1} alt="" className="img-ctrl" />
+              </Col>
+              <h5>Hyaluret Serum S13</h5>
+              <p>
+                with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
+                and Dill
+              </p>
+              <button
+                style={{ width: "90%", height: "40px", marginBottom: "10px" }}
+              >
+                Add to bag
+              </button>
+            </div>
+          </Link>
+
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
+            <Col>
+              <img src={s2} alt="" className="img-ctrl" />
+            </Col>
+            <h5>Hyaluret Serum S13</h5>
+            <p>
+              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
+              and Dill
+            </p>
+            <button
+              style={{ width: "90%", height: "40px", marginBottom: "10px" }}
+            >
+              Add to bag
+            </button>
+          </div>
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s1} alt="" className="img-ctrl" />
             </Col>
@@ -29,47 +73,14 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s2} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
-            <p>
-              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
-              and Dill
-            </p>
-            <button
-              style={{ width: "90%", height: "40px", marginBottom: "10px" }}
-            >
-              Add to bag
-            </button>
-          </div>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
-            <Col>
-              <img src={s1} alt="" className="img-ctrl" />
-            </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
-            <p>
-              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
-              and Dill
-            </p>
-            <button
-              style={{ width: "90%", height: "40px", marginBottom: "10px" }}
-            >
-              Add to bag
-            </button>
-          </div>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
-            <Col>
-              <img src={s2} alt="" className="img-ctrl" />
-            </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
               with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
               and Dill
@@ -87,13 +98,14 @@ const ShopNew = () => {
         style={{ display: "flex", flexDirection: "row" }}
       >
         <Row>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s1} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
               with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
               and Dill
@@ -104,13 +116,14 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s2} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
               with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
               and Dill
@@ -121,13 +134,14 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s1} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
               with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
               and Dill
@@ -138,13 +152,14 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left" }} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s2} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
               with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
               and Dill
@@ -162,17 +177,17 @@ const ShopNew = () => {
         style={{ display: "flex", flexDirection: "row" }}
       >
         <Row>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s1} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
-              with Retinoic and Hyaluronic Acid Ester,
-              Beta-glucan, Liquorice and Dill
-
+              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
+              and Dill
             </p>
             <button
               style={{ width: "90%", height: "40px", marginBottom: "10px" }}
@@ -180,17 +195,17 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left" }} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s2} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
-              with Retinoic and Hyaluronic Acid Ester,
-              Beta-glucan, Liquorice and Dill
-
+              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
+              and Dill
             </p>
             <button
               style={{ width: "90%", height: "40px", marginBottom: "10px" }}
@@ -198,17 +213,17 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left" }} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s1} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
-              with Retinoic and Hyaluronic Acid Ester,
-              Beta-glucan, Liquorice and Dill
-
+              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
+              and Dill
             </p>
             <button
               style={{ width: "90%", height: "40px", marginBottom: "10px" }}
@@ -216,17 +231,17 @@ const ShopNew = () => {
               Add to bag
             </button>
           </div>
-          <div style={{ justifyContent: "left"}} className="col-lg-3 col-md-6 col-sm-12">
+          <div
+            style={{ justifyContent: "left" }}
+            className="col-lg-3 col-md-6 col-sm-12"
+          >
             <Col>
               <img src={s2} alt="" className="img-ctrl" />
             </Col>
-            <h5>
-              Hyaluret Serum S13
-            </h5>
+            <h5>Hyaluret Serum S13</h5>
             <p>
-              with Retinoic and Hyaluronic Acid Ester,
-              Beta-glucan, Liquorice and Dill
-
+              with Retinoic and Hyaluronic Acid Ester, Beta-glucan, Liquorice
+              and Dill
             </p>
             <button
               style={{ width: "90%", height: "40px", marginBottom: "10px" }}
