@@ -22,7 +22,7 @@ const Featured = () => {
         <div className="col-lg-4 col-md-12">
           <Col>
           <div style={{ width: "80%", height: "70%", margin: "0 auto", marginTop:"30%"}}>
-            <h1 style={{fontWeight: "bolder"}}>
+            <h1 style={{fontWeight: "bolder", fontSize: "80px"}}>
               The ultimate in hyaluronic acid
             </h1>
             <p>Hylafecta S14 is our new 2% triple molecule weight hyaluronic serum</p>
